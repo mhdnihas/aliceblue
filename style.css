@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    font-family: sans-serif;
+}
+.top{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background: #233b78;
+    padding: 20px 0 4px 10px;
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+}
+.top span{
+    background: #44b749;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+}
+.navBar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 8px #dfdfd9;
+    width: 100%;
+    margin-top: 50px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.logo{
+    margin-left: 35px;
+}
+.logo img{
+    width: 130px;
+}
+.navItem{
+    margin-left: auto;
+    margin-right: 50px;
+}
+.navItem i{
+    margin-left: 10px;
+    color: black;
+}
+.navItem span{
+    padding: 20px;
+    font-size: 18px;
+}
+.navItem a{
+    text-decoration: none;
+    color: black;
+}
+.ant{
+    border-bottom: 2px solid;
+    color: #276ab4 ;
+}
+.navBtn{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.navBtn div{
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    margin: 7px;
+}
+.maincontent{
+    padding-top: 132px;
+    background-image: url("images/ant-banner-bg.jpg");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bgMain{
+    display: flex;
+}
+
+.bgMain img{
+    width: 400px;
+}
+.opnBtn{
+    position: fixed;
+    right: -48px;
+    transform: rotate(-90deg);
+    margin-top: 60px;
+    padding: 10px;
+    background: #44b749;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+.textContent{
+    padding-left: 70px;
+    padding-top: 80px;
+}
+.textContent h1{
+    font-size: 42px;
+    line-height: 1.5;
+}
+.contImg{
+    padding: 190px;
+}
+.textContent p{
+    FONT-WEIGHT: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.regBtn{
+    margin-top: 100px;
+}
+.signUpBtn{
+    background:#44b749;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.loginBtn{
+    margin-left: 35px;
+    color: #44b749;
+    padding: 9px 80px;
+    border: 1px solid #44b749;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hText{
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+.hText p{
+    font-size: 15px;
+    font-weight: 700;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.list ul{
+    margin: 30px;
+    line-height: 40px;
+    width: 255px;
+    list-style: none;
+}
+.list li::before{
+    content: " ";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: #233b78;
+    display: block;
+    margin-left: -25px;
+    margin-top: 11px;
+    z-index: -1;
+}
+.midImg{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background:  #f7f7f7;
+    padding-top: 50px;
+}
+.midCntent{
+    margin: 100px;
+    line-height: 1.5;
+}
+.midCntent h1{
+    letter-spacing: 1px;
+    color:  #276ab4;
+    font-size: 34px;
+}
+.midCntent p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.midCntImg img{
+    width: 400px;
+}
+.contentNew{
+    text-align: center;
+}
+.typsNew{
+    display: flex;
+    padding: 100px;
+}
+.secReleas{
+    width: 600px;
+    height: 250px;
+    background:  #f7f7f7;
+}
+.secUpComing{
+    width: 600px;
+    height: 250px;
+    background:  #f7f7f7;
+    margin-left: 30px;
+}
+.subBox1{
+    width: 518px;
+    height: 20px;
+    background:#44b749;
+    border-radius: 25px 0 25px 0;
+    text-align: left;
+    padding: 16px 20px;
+    font-size: 18px;
+    color: white;
+}
+.subBox2{
+    width: 518px;
+    height: 20px;
+    background:#a6bce2;
+    border-radius: 25px 0 25px 0;
+    text-align: left;
+    padding: 16px 20px;
+    font-size: 18px;
+    color: white;
+}
+.boxCntent{
+    text-align: left;
+    margin: 50px 0 0 25px;
+    line-height: 2.5;
+    letter-spacing: 1px;
+}
+.boxCntent h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.secFaq{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.secFaq img{
+    width: 150px;
+}
+.secLogo img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.secLogo a{
+    text-decoration: none;
+    color: black;
+}
+.infoSec{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-right: 180px;
+}
+.secList ul{
+    margin-top: 40px;
+}
+.secList li{
+    margin-top: 20px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.midFooter{
+    width: 100%;
+    height: 50px;
+    background: #276ba4;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.midSub i{
+    margin-left: 10px;
+}
+.midFooter span{
+    margin-left: 150px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sMedia{
+    width: 100%;
+    display: flex;
+}
+.sMediaL{
+    width: 40%;
+    padding: 100px;
+}
+.sMediaR{
+    width: 60%;
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.mediaImg{
+    display: flex;
+}
+.mediaImg img{
+    width: 100px;
+    margin-left: 20px;
+}
+.subLink{
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.subLink span{
+    background: #e1e2e1;;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.mediaIcons{
+    font-size: 30px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.mediaIcons i{
+    margin-left: 20px;
+}
+.mediaIcons img{
+    width: 26px;
+}
+.atnsSub1{
+    display: flex;
+}
+.atnsSub1 i{
+    color: gray;
+    padding-left: 125px;
+    font-size: 23px;
+}
+.atnsSub1 p{
+    font-size: 15px;
+}
+.atnsSub1 span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.atnsSub2{
+    margin-left: 95px;
+    margin-top: 50px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.atnsSub2 a{
+    text-decoration: none;
+    color: #276ba4 ;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background: #276ba4;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    text-align: center;
+}
+.footer p{
+    padding: 25px;
+    color: white;
+    font-size: 14px;
+}
+.lglDcmt{
+    padding: 15px;
+    display: flex;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-left: 90px;
+}
+.lglDcmt a{
+    text-decoration: none;
+    color:#276ba4;
+}
+.lglDcmt p{
+    margin-left: auto;
+    margin-right: 100px;
+    color: gray;
+}
+
+
